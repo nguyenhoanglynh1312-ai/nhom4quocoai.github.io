@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Giới thiệu</title>
+    <title>Liên hệ</title>
     <style>
-        body {font-family:Arial;margin:0;background:#f0f2f5;}
-        nav {background:white;padding:15px;text-align:center;}
-        nav a {margin:10px;text-decoration:none;font-weight:bold;color:#333;}
-        .box {
+        body {font-family: Arial; background:#f0f2f5;}
+        nav {background:white; padding:15px; text-align:center;}
+        nav a {margin:10px; text-decoration:none; font-weight:bold;}
+        form {
             background:white;
-            padding:30px;
-            margin:30px;
+            padding:20px;
+            width:300px;
+            margin:50px auto;
             border-radius:10px;
-            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width:100%;
+            margin:10px 0;
+            padding:8px;
+        }
+        button {
+            background:#4facfe;
+            color:white;
+            border:none;
+            padding:10px;
+            width:100%;
         }
     </style>
 </head>
@@ -24,29 +36,13 @@
     <a href="contact.html">Liên hệ</a>
 </nav>
 
-<div class="box">
-
-<h1>Giới thiệu về website</h1>
-
-<p>Website này được xây dựng với mục đích giới thiệu về du lịch Hà Nội – thủ đô của Việt Nam, nơi hội tụ nhiều giá trị văn hóa, lịch sử và ẩm thực đặc sắc.</p>
-
-<p>Thông qua website, người dùng có thể tìm hiểu về các địa điểm nổi tiếng, các món ăn đặc trưng cũng như những trải nghiệm thú vị khi đến Hà Nội.</p>
-
-<h2>Công nghệ sử dụng</h2>
-
-<p>Nhóm chúng em sử dụng ngôn ngữ HTML để xây dựng cấu trúc website. Các thẻ như &lt;p&gt; được dùng để trình bày nội dung văn bản, trong khi thẻ &lt;a&gt; được sử dụng để tạo liên kết giữa các trang.</p>
-
-<p>Bên cạnh đó, nhóm cũng sử dụng CSS để thiết kế giao diện, giúp website trở nên trực quan và dễ nhìn hơn.</p>
-
-<h2>Ứng dụng AI</h2>
-
-<p>Trong quá trình thực hiện, nhóm đã sử dụng AI để hỗ trợ viết code, sửa lỗi và gợi ý ý tưởng thiết kế. Điều này giúp tiết kiệm thời gian và nâng cao chất lượng sản phẩm.</p>
-
-<h2>Định hướng phát triển</h2>
-
-<p>Trong tương lai, website có thể được nâng cấp với nhiều tính năng nâng cao như hiệu ứng chuyển động, tối ưu cho điện thoại và bổ sung thêm nhiều nội dung hấp dẫn.</p>
-
-</div>
+<form>
+    <h2>Liên hệ</h2>
+    <input type="text" placeholder="Tên">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Nội dung"></textarea>
+    <button>Gửi</button>
+</form>
 
 </body>
 </html>
